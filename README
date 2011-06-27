@@ -1,1 +1,10 @@
 Explorer your system and server files
+
+INSTALLATION
+
+<container>
+git clone http://github.com/ouardisoft/FileExplorerBundle.git vendor/bundles/OS/FileExplorerBundle
+</container>
+
+'OS' => __DIR__.'/../vendor/bundles',
+
