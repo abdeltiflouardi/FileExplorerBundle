@@ -2,9 +2,9 @@ Explorer your system and server files
 
 INSTALLATION
 
-<container>
-git clone http://github.com/ouardisoft/FileExplorerBundle.git vendor/bundles/OS/FileExplorerBundle
-</container>
+    git clone http://github.com/ouardisoft/FileExplorerBundle.git vendor/bundles/OS/FileExplorerBundle
 
-'OS' => __DIR__.'/../vendor/bundles',
+Add in autolodader file
+
+    'OS' => __DIR__.'/../vendor/bundles',
 
