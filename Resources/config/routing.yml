@@ -1,0 +1,3 @@
+OSFileExplorerBundle_homepage:
+    pattern:  /
+    defaults: { _controller: OSFileExplorerBundle:Default:index }
