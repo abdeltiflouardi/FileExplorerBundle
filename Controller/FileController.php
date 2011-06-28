@@ -3,7 +3,6 @@
 namespace OS\FileExplorerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\Finder\Finder;
 
 class FileController extends Controller
 {
