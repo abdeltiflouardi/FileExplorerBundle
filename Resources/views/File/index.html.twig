@@ -1,0 +1,5 @@
+<ul>
+    {% for file in files %}
+        <li><a href="?cd={{ file.path ~ '/' ~ file.filename }}">{{ file.filename }}</a></li>
+    {% endfor %}
+</ul>

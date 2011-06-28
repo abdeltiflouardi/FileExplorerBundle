@@ -8,3 +8,18 @@ Add in autolodader file
 
     'OS' => __DIR__.'/../vendor/bundles',
 
+Add in routing.yml file
+
+    OSFileExplorerBundle:
+        resource: "@OSFileExplorerBundle/Resources/config/routing.yml"
+        prefix:   /file-explorer
+
+To test http://server/file-explorer
+
+
+// TODO list
+Connect to ftp server
+Explore server FTP files
+Upload files
+Manage file (rename, remove, copy, move, download)
+Authentification
